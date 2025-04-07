@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04BC4C2B2DA418A0009F1C8F /* ToDoCombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC4C2A2DA418A0009F1C8F /* ToDoCombineApp.swift */; };
+		04BC4C2B2DA418A0009F1C8F /* ToDoFirebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC4C2A2DA418A0009F1C8F /* ToDoFirebaseApp.swift */; };
 		04BC4C2D2DA418A0009F1C8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC4C2C2DA418A0009F1C8F /* ContentView.swift */; };
 		04BC4C2F2DA418A3009F1C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BC4C2E2DA418A3009F1C8F /* Assets.xcassets */; };
 		04BC4C322DA418A3009F1C8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BC4C312DA418A3009F1C8F /* Preview Assets.xcassets */; };
+		04BC4C3A2DA4588C009F1C8F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 04BC4C392DA4588C009F1C8F /* FirebaseAnalytics */; };
+		04BC4C3C2DA4588C009F1C8F /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 04BC4C3B2DA4588C009F1C8F /* FirebaseAnalyticsOnDeviceConversion */; };
+		04BC4C3E2DA4588C009F1C8F /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 04BC4C3D2DA4588C009F1C8F /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		04BC4C402DA4588C009F1C8F /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 04BC4C3F2DA4588C009F1C8F /* FirebaseAppCheck */; };
+		04BC4C422DA4588C009F1C8F /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 04BC4C412DA4588C009F1C8F /* FirebaseAppDistribution-Beta */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04BC4C272DA418A0009F1C8F /* ToDoCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoCombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		04BC4C2A2DA418A0009F1C8F /* ToDoCombineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCombineApp.swift; sourceTree = "<group>"; };
+		04BC4C272DA418A0009F1C8F /* ToDoFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BC4C2A2DA418A0009F1C8F /* ToDoFirebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoFirebaseApp.swift; sourceTree = "<group>"; };
 		04BC4C2C2DA418A0009F1C8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04BC4C2E2DA418A3009F1C8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BC4C312DA418A3009F1C8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -26,6 +31,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BC4C402DA4588C009F1C8F /* FirebaseAppCheck in Frameworks */,
+				04BC4C3A2DA4588C009F1C8F /* FirebaseAnalytics in Frameworks */,
+				04BC4C422DA4588C009F1C8F /* FirebaseAppDistribution-Beta in Frameworks */,
+				04BC4C3E2DA4588C009F1C8F /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				04BC4C3C2DA4588C009F1C8F /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,7 +45,7 @@
 		04BC4C1E2DA418A0009F1C8F = {
 			isa = PBXGroup;
 			children = (
-				04BC4C292DA418A0009F1C8F /* ToDoCombine */,
+				04BC4C292DA418A0009F1C8F /* ToDoFirebase */,
 				04BC4C282DA418A0009F1C8F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +53,20 @@
 		04BC4C282DA418A0009F1C8F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04BC4C272DA418A0009F1C8F /* ToDoCombine.app */,
+				04BC4C272DA418A0009F1C8F /* ToDoFirebase.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04BC4C292DA418A0009F1C8F /* ToDoCombine */ = {
+		04BC4C292DA418A0009F1C8F /* ToDoFirebase */ = {
 			isa = PBXGroup;
 			children = (
-				04BC4C2A2DA418A0009F1C8F /* ToDoCombineApp.swift */,
+				04BC4C2A2DA418A0009F1C8F /* ToDoFirebaseApp.swift */,
 				04BC4C2C2DA418A0009F1C8F /* ContentView.swift */,
 				04BC4C2E2DA418A3009F1C8F /* Assets.xcassets */,
 				04BC4C302DA418A3009F1C8F /* Preview Content */,
 			);
-			path = ToDoCombine;
+			path = ToDoFirebase;
 			sourceTree = "<group>";
 		};
 		04BC4C302DA418A3009F1C8F /* Preview Content */ = {
@@ -70,9 +80,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04BC4C262DA418A0009F1C8F /* ToDoCombine */ = {
+		04BC4C262DA418A0009F1C8F /* ToDoFirebase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04BC4C352DA418A3009F1C8F /* Build configuration list for PBXNativeTarget "ToDoCombine" */;
+			buildConfigurationList = 04BC4C352DA418A3009F1C8F /* Build configuration list for PBXNativeTarget "ToDoFirebase" */;
 			buildPhases = (
 				04BC4C232DA418A0009F1C8F /* Sources */,
 				04BC4C242DA418A0009F1C8F /* Frameworks */,
@@ -82,9 +92,16 @@
 			);
 			dependencies = (
 			);
-			name = ToDoCombine;
+			name = ToDoFirebase;
+			packageProductDependencies = (
+				04BC4C392DA4588C009F1C8F /* FirebaseAnalytics */,
+				04BC4C3B2DA4588C009F1C8F /* FirebaseAnalyticsOnDeviceConversion */,
+				04BC4C3D2DA4588C009F1C8F /* FirebaseAnalyticsWithoutAdIdSupport */,
+				04BC4C3F2DA4588C009F1C8F /* FirebaseAppCheck */,
+				04BC4C412DA4588C009F1C8F /* FirebaseAppDistribution-Beta */,
+			);
 			productName = ToDoCombine;
-			productReference = 04BC4C272DA418A0009F1C8F /* ToDoCombine.app */;
+			productReference = 04BC4C272DA418A0009F1C8F /* ToDoFirebase.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04BC4C222DA418A0009F1C8F /* Build configuration list for PBXProject "ToDoCombine" */;
+			buildConfigurationList = 04BC4C222DA418A0009F1C8F /* Build configuration list for PBXProject "ToDoFirebase" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,11 +128,14 @@
 				Base,
 			);
 			mainGroup = 04BC4C1E2DA418A0009F1C8F;
+			packageReferences = (
+				04BC4C382DA4588C009F1C8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 04BC4C282DA418A0009F1C8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04BC4C262DA418A0009F1C8F /* ToDoCombine */,
+				04BC4C262DA418A0009F1C8F /* ToDoFirebase */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04BC4C2D2DA418A0009F1C8F /* ContentView.swift in Sources */,
-				04BC4C2B2DA418A0009F1C8F /* ToDoCombineApp.swift in Sources */,
+				04BC4C2B2DA418A0009F1C8F /* ToDoFirebaseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ToDoCombine/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ToDoFirebase/Preview Content\"";
 				DEVELOPMENT_TEAM = 5AR4487J34;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -300,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ToDoCombine/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ToDoFirebase/Preview Content\"";
 				DEVELOPMENT_TEAM = 5AR4487J34;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -325,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04BC4C222DA418A0009F1C8F /* Build configuration list for PBXProject "ToDoCombine" */ = {
+		04BC4C222DA418A0009F1C8F /* Build configuration list for PBXProject "ToDoFirebase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04BC4C332DA418A3009F1C8F /* Debug */,
@@ -334,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04BC4C352DA418A3009F1C8F /* Build configuration list for PBXNativeTarget "ToDoCombine" */ = {
+		04BC4C352DA418A3009F1C8F /* Build configuration list for PBXNativeTarget "ToDoFirebase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04BC4C362DA418A3009F1C8F /* Debug */,
@@ -344,6 +364,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04BC4C382DA4588C009F1C8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04BC4C392DA4588C009F1C8F /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04BC4C382DA4588C009F1C8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		04BC4C3B2DA4588C009F1C8F /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04BC4C382DA4588C009F1C8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		04BC4C3D2DA4588C009F1C8F /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04BC4C382DA4588C009F1C8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		04BC4C3F2DA4588C009F1C8F /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04BC4C382DA4588C009F1C8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		04BC4C412DA4588C009F1C8F /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04BC4C382DA4588C009F1C8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 04BC4C1F2DA418A0009F1C8F /* Project object */;
 }
