@@ -16,6 +16,7 @@
 		04BC4C3E2DA4588C009F1C8F /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 04BC4C3D2DA4588C009F1C8F /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		04BC4C402DA4588C009F1C8F /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 04BC4C3F2DA4588C009F1C8F /* FirebaseAppCheck */; };
 		04BC4C422DA4588C009F1C8F /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 04BC4C412DA4588C009F1C8F /* FirebaseAppDistribution-Beta */; };
+		04BC4C442DA466C2009F1C8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04BC4C432DA466C2009F1C8F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		04BC4C2C2DA418A0009F1C8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04BC4C2E2DA418A3009F1C8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BC4C312DA418A3009F1C8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04BC4C432DA466C2009F1C8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				04BC4C2A2DA418A0009F1C8F /* ToDoFirebaseApp.swift */,
 				04BC4C2C2DA418A0009F1C8F /* ContentView.swift */,
 				04BC4C2E2DA418A3009F1C8F /* Assets.xcassets */,
+				04BC4C432DA466C2009F1C8F /* GoogleService-Info.plist */,
 				04BC4C302DA418A3009F1C8F /* Preview Content */,
 			);
 			path = ToDoFirebase;
@@ -147,6 +150,7 @@
 			files = (
 				04BC4C322DA418A3009F1C8F /* Preview Assets.xcassets in Resources */,
 				04BC4C2F2DA418A3009F1C8F /* Assets.xcassets in Resources */,
+				04BC4C442DA466C2009F1C8F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,14 +302,13 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.randrusevych.ToDoCombine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.randrusevych.ToDoFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -327,14 +330,13 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.randrusevych.ToDoCombine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.randrusevych.ToDoFirebase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
