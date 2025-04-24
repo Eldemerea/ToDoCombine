@@ -44,6 +44,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04643F5C2DBA9C040075CD60 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04BC4C2C2DA418A0009F1C8F /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04643F5D2DBA9C140075CD60 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		04643F5E2DBA9C250075CD60 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04643F5F2DBA9C550075CD60 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04BC4C2E2DA418A3009F1C8F /* Assets.xcassets */,
+				04BC4C432DA466C2009F1C8F /* GoogleService-Info.plist */,
+				04BC4C2A2DA418A0009F1C8F /* ToDoFirebaseApp.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		04BC4C1E2DA418A0009F1C8F = {
 			isa = PBXGroup;
 			children = (
@@ -63,10 +95,10 @@
 		04BC4C292DA418A0009F1C8F /* ToDoFirebase */ = {
 			isa = PBXGroup;
 			children = (
-				04BC4C2A2DA418A0009F1C8F /* ToDoFirebaseApp.swift */,
-				04BC4C2C2DA418A0009F1C8F /* ContentView.swift */,
-				04BC4C2E2DA418A3009F1C8F /* Assets.xcassets */,
-				04BC4C432DA466C2009F1C8F /* GoogleService-Info.plist */,
+				04643F5F2DBA9C550075CD60 /* Resources */,
+				04643F5E2DBA9C250075CD60 /* Models */,
+				04643F5D2DBA9C140075CD60 /* ViewModels */,
+				04643F5C2DBA9C040075CD60 /* Views */,
 				04BC4C302DA418A3009F1C8F /* Preview Content */,
 			);
 			path = ToDoFirebase;
@@ -299,6 +331,7 @@
 				DEVELOPMENT_TEAM = 5AR4487J34;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "To Do List";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -327,6 +360,7 @@
 				DEVELOPMENT_TEAM = 5AR4487J34;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "To Do List";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
