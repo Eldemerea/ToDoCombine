@@ -4,7 +4,9 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>KyivTypeSerif-VarGX.ttx</string>
+		<string>KyivTypeSerif-Medium.ttf</string>
+		<string>KyivTypeSerif-Thin.ttf</string>
+		<string>KyivTypeSerif-Light.ttf</string>
 	</array>
 </dict>
 </plist>

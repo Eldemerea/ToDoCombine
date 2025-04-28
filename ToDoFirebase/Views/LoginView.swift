@@ -8,21 +8,19 @@
 import SwiftUI
 
 struct LoginView: View {
-    var body: some View {
-        VStack {
-            Text("To do list")
-                .foregroundColor(.cyan)
-                .font(Font.custom("KyivTypeSerif-VarGX", size: 30))
-        }
-        .onAppear {
-            for family in UIFont.familyNames {
-                print("\(family)")
-                for names in UIFont.fontNames(forFamilyName: family) {
-                    print("== \(names)")
-                }
+        var body: some View {
+            
+            VStack {
+                Text("to:do")
+                    .foregroundColor(.black)
+                    .font(Font.custom("KyivTypeSerif-Light", size: 36))
+                    .frame(width: 200, height: 100)
+                    .padding(.top, 30)
+                Spacer()
+               
             }
+            
         }
-    }
 }
 
 #Preview {

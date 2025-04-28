@@ -22,7 +22,8 @@
 		04643F792DBBAB720075CD60 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04643F782DBBAB720075CD60 /* RegisterViewViewModel.swift */; };
 		04643F7B2DBBABBA0075CD60 /* CreateItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04643F7A2DBBABBA0075CD60 /* CreateItemViewViewModel.swift */; };
 		04643F7D2DBBABE10075CD60 /* ToDoListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04643F7C2DBBABE10075CD60 /* ToDoListViewViewModel.swift */; };
-		04643F7F2DBBCAA30075CD60 /* KyivTypeSerif-VarGX.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04643F7E2DBBCAA30075CD60 /* KyivTypeSerif-VarGX.ttf */; };
+		04AB2A3E2DBEDEDA002D8B73 /* KyivTypeSerif-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04AB2A3D2DBEDEDA002D8B73 /* KyivTypeSerif-Medium.ttf */; };
+		04AB2A402DBEDF43002D8B73 /* KyivTypeSerif-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04AB2A3F2DBEDF43002D8B73 /* KyivTypeSerif-Light.ttf */; };
 		04BC4C2B2DA418A0009F1C8F /* ToDoFirebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC4C2A2DA418A0009F1C8F /* ToDoFirebaseApp.swift */; };
 		04BC4C2D2DA418A0009F1C8F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC4C2C2DA418A0009F1C8F /* MainView.swift */; };
 		04BC4C2F2DA418A3009F1C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BC4C2E2DA418A3009F1C8F /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		04BC4C402DA4588C009F1C8F /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 04BC4C3F2DA4588C009F1C8F /* FirebaseAppCheck */; };
 		04BC4C422DA4588C009F1C8F /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 04BC4C412DA4588C009F1C8F /* FirebaseAppDistribution-Beta */; };
 		04BC4C442DA466C2009F1C8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04BC4C432DA466C2009F1C8F /* GoogleService-Info.plist */; };
+		04C6AB022DBCADBF00CC64FF /* KyivTypeSerif-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04C6AB012DBCADBF00CC64FF /* KyivTypeSerif-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,14 +53,16 @@
 		04643F782DBBAB720075CD60 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		04643F7A2DBBABBA0075CD60 /* CreateItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateItemViewViewModel.swift; sourceTree = "<group>"; };
 		04643F7C2DBBABE10075CD60 /* ToDoListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewViewModel.swift; sourceTree = "<group>"; };
-		04643F7E2DBBCAA30075CD60 /* KyivTypeSerif-VarGX.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KyivTypeSerif-VarGX.ttf"; sourceTree = "<group>"; };
 		04643F802DBBCABA0075CD60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		04AB2A3D2DBEDEDA002D8B73 /* KyivTypeSerif-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KyivTypeSerif-Medium.ttf"; sourceTree = "<group>"; };
+		04AB2A3F2DBEDF43002D8B73 /* KyivTypeSerif-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KyivTypeSerif-Light.ttf"; sourceTree = "<group>"; };
 		04BC4C272DA418A0009F1C8F /* ToDoFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BC4C2A2DA418A0009F1C8F /* ToDoFirebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoFirebaseApp.swift; sourceTree = "<group>"; };
 		04BC4C2C2DA418A0009F1C8F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		04BC4C2E2DA418A3009F1C8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BC4C312DA418A3009F1C8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04BC4C432DA466C2009F1C8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04C6AB012DBCADBF00CC64FF /* KyivTypeSerif-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KyivTypeSerif-Thin.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +122,9 @@
 			isa = PBXGroup;
 			children = (
 				04BC4C2E2DA418A3009F1C8F /* Assets.xcassets */,
-				04643F7E2DBBCAA30075CD60 /* KyivTypeSerif-VarGX.ttf */,
+				04AB2A3D2DBEDEDA002D8B73 /* KyivTypeSerif-Medium.ttf */,
+				04C6AB012DBCADBF00CC64FF /* KyivTypeSerif-Thin.ttf */,
+				04AB2A3F2DBEDF43002D8B73 /* KyivTypeSerif-Light.ttf */,
 				04BC4C432DA466C2009F1C8F /* GoogleService-Info.plist */,
 				04BC4C2A2DA418A0009F1C8F /* ToDoFirebaseApp.swift */,
 			);
@@ -230,10 +236,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C6AB022DBCADBF00CC64FF /* KyivTypeSerif-Thin.ttf in Resources */,
 				04BC4C322DA418A3009F1C8F /* Preview Assets.xcassets in Resources */,
+				04AB2A402DBEDF43002D8B73 /* KyivTypeSerif-Light.ttf in Resources */,
 				04BC4C2F2DA418A3009F1C8F /* Assets.xcassets in Resources */,
-				04643F7F2DBBCAA30075CD60 /* KyivTypeSerif-VarGX.ttf in Resources */,
 				04BC4C442DA466C2009F1C8F /* GoogleService-Info.plist in Resources */,
+				04AB2A3E2DBEDEDA002D8B73 /* KyivTypeSerif-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
