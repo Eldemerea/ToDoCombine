@@ -24,7 +24,11 @@ struct LoginView: View {
                 Form {
                     TextField("EMail address", text: $email)
                     HStack {
-                        SecureField("Password", text: $password)
+                        if showPassword {
+                            TextField("Password", text: $password)
+                        } else {
+                            SecureField("Password", text: $password)
+                        }
                         Button(action: { self.showPassword.toggle()}) {
                             Image(systemName: "eye")
                                 .foregroundColor(.secondary)
