@@ -15,7 +15,7 @@ struct LoginView: View {
     var body: some View {
         NavigationStack {
             VStack {
-               HeaderView()
+                HeaderView(title: "to:do", background: .white)
                 Form {
                     
                     TextField("EMail address", text: $email)

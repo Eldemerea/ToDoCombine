@@ -9,7 +9,6 @@ import SwiftUI
 
 struct HeaderView: View {
     let title: String
-    let subtitle: String
     let background: Color
     
     var body: some View {
@@ -18,12 +17,12 @@ struct HeaderView: View {
                 .font(Font.custom("KyivTypeSerif-Light", size: 36))
                 .padding(.top, 100)
 //                        .frame(width: 200, height: 50)
-            Text(subtitle)
         }
         .frame(height: 200)
+        .foregroundColor(background)
     }
 }
 
 #Preview {
-    HeaderView()
+    HeaderView(title: "to:do", background: .white)
 }
