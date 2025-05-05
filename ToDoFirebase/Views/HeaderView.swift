@@ -12,17 +12,24 @@ struct HeaderView: View {
     let background: Color
     
     var body: some View {
-        VStack { Text(title)
-                .foregroundColor(.black)
-                .font(Font.custom("KyivTypeSerif-Light", size: 36))
-                .padding(.top, 100)
-//                        .frame(width: 200, height: 50)
+        VStack {
+            Spacer()
+                .frame(height: 180)
+            ZStack {
+                RoundedRectangle(cornerRadius: 0)
+                    .foregroundColor(background)
+                Text(title)
+                    .foregroundColor(.black)
+                    .font(Font.custom("KyivTypeSerif-Light", size: 36))
+                    .padding(.bottom, 30)
+                //                        .frame(width: 200, height: 50)
+                
+                
+            }
+            
         }
-        .frame(height: 200)
-        .foregroundColor(background)
     }
 }
-
 #Preview {
     HeaderView(title: "to:do", background: .white)
 }

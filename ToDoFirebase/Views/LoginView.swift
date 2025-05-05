@@ -14,30 +14,30 @@ struct LoginView: View {
     @State private var showPassword = false
     var body: some View {
         NavigationStack {
-            VStack {
+            VStack { 
+                
                 HeaderView(title: "to:do", background: .white)
-                Form {
-                    
-                    TextField("EMail address", text: $email)
-                        .textFieldStyle(DefaultTextFieldStyle())
-                    HStack {
-                        if showPassword {
-                            TextField(" Password", text: $password)
-                                .textFieldStyle(DefaultTextFieldStyle())
-                        } else {
-                            SecureField("Password", text: $password)
-                                .textFieldStyle(DefaultTextFieldStyle())
-                            
+               
+                    Form {
+                       
+                        TextField("EMail address", text: $email)
+                            .textFieldStyle(DefaultTextFieldStyle())
+                        HStack {
+                            if showPassword {
+                                TextField(" Password", text: $password)
+                                    .textFieldStyle(DefaultTextFieldStyle())
+                            } else {
+                                SecureField("Password", text: $password)
+                                    .textFieldStyle(DefaultTextFieldStyle())
+                                
+                            }
+                            Button(action: { self.showPassword.toggle()}) {
+                                Image(systemName: "eye")
+                                    .foregroundColor(.secondary)
+                            }
                         }
-                        Button(action: { self.showPassword.toggle()}) {
-                            Image(systemName: "eye")
-                                .foregroundColor(.secondary)
-                                .padding()
-                        }
-                    }
-                    
-                } 
-                .padding(.top, 100)
+                }
+                .frame(height: 400, alignment: .center)
                 HStack{
                     Button(action: {
                         // login attemp
@@ -48,23 +48,22 @@ struct LoginView: View {
                                 .frame(height: 50)
                                 .padding(EdgeInsets(top: 0, leading: 30, bottom: 0, trailing: 30))
                             Text("Log In")
+                                .font(.system(size: 20.0))
                                 .bold()
                                 .foregroundColor(.white)
                         }
                     }
                            
                     )
-                    .padding(.top, 0)
-                    //                        Spacer()
                 }
                 VStack {
                     Text("New around here?")
                     NavigationLink("Create an account", destination: RegisterView())
-                            .foregroundStyle(
-                                .linearGradient(colors: [.teal, .blue], startPoint: .topLeading, endPoint: .bottomTrailing))
-                    }
+                        .foregroundStyle(
+                            .linearGradient(colors: [.teal, .blue], startPoint: .topLeading, endPoint: .bottomTrailing))
                 }
             }
+        }
         }
     }
 
