@@ -16,10 +16,8 @@ struct LoginView: View {
         NavigationStack {
             VStack { 
                 
-                HeaderView(title: "to:do", background: .white)
-               
-                    Form {
-                       
+                HeaderView(title: "to:do", subtitle: "", background: .white)
+                Form {
                         TextField("EMail address", text: $email)
                             .textFieldStyle(DefaultTextFieldStyle())
                         HStack {
@@ -37,7 +35,6 @@ struct LoginView: View {
                             }
                         }
                 }
-                .frame(height: 400, alignment: .center)
                 HStack{
                     Button(action: {
                         // login attemp

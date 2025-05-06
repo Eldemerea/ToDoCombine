@@ -36,6 +36,7 @@
 		04BC4C422DA4588C009F1C8F /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 04BC4C412DA4588C009F1C8F /* FirebaseAppDistribution-Beta */; };
 		04BC4C442DA466C2009F1C8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04BC4C432DA466C2009F1C8F /* GoogleService-Info.plist */; };
 		04C6AB022DBCADBF00CC64FF /* KyivTypeSerif-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04C6AB012DBCADBF00CC64FF /* KyivTypeSerif-Thin.ttf */; };
+		04EAAEB02DCAAAC500F85DE5 /* MazzardM-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04EAAEAF2DCAAAC500F85DE5 /* MazzardM-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		04BC4C312DA418A3009F1C8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04BC4C432DA466C2009F1C8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		04C6AB012DBCADBF00CC64FF /* KyivTypeSerif-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KyivTypeSerif-Thin.ttf"; sourceTree = "<group>"; };
+		04EAAEAF2DCAAAC500F85DE5 /* MazzardM-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardM-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				04BC4C2E2DA418A3009F1C8F /* Assets.xcassets */,
 				04AB2A3D2DBEDEDA002D8B73 /* KyivTypeSerif-Medium.ttf */,
 				04C6AB012DBCADBF00CC64FF /* KyivTypeSerif-Thin.ttf */,
+				04EAAEAF2DCAAAC500F85DE5 /* MazzardM-Light.ttf */,
 				04AB2A3F2DBEDF43002D8B73 /* KyivTypeSerif-Light.ttf */,
 				04BC4C432DA466C2009F1C8F /* GoogleService-Info.plist */,
 				04BC4C2A2DA418A0009F1C8F /* ToDoFirebaseApp.swift */,
@@ -241,6 +244,7 @@
 			files = (
 				04C6AB022DBCADBF00CC64FF /* KyivTypeSerif-Thin.ttf in Resources */,
 				04BC4C322DA418A3009F1C8F /* Preview Assets.xcassets in Resources */,
+				04EAAEB02DCAAAC500F85DE5 /* MazzardM-Light.ttf in Resources */,
 				04AB2A402DBEDF43002D8B73 /* KyivTypeSerif-Light.ttf in Resources */,
 				04BC4C2F2DA418A3009F1C8F /* Assets.xcassets in Resources */,
 				04BC4C442DA466C2009F1C8F /* GoogleService-Info.plist in Resources */,

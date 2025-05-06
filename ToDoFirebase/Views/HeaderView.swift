@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HeaderView: View {
     let title: String
+    let subtitle: String
     let background: Color
     
     var body: some View {
@@ -18,18 +19,20 @@ struct HeaderView: View {
             ZStack {
                 RoundedRectangle(cornerRadius: 0)
                     .foregroundColor(background)
-                Text(title)
-                    .foregroundColor(.black)
-                    .font(Font.custom("KyivTypeSerif-Light", size: 36))
-                    .padding(.bottom, 30)
-                //                        .frame(width: 200, height: 50)
-                
-                
+                VStack {
+                    
+                    Text(title)
+                        .foregroundColor(.black)
+                        .font(Font.custom("KyivTypeSerif-Light", size: 36))
+                        .padding(.bottom, 30)
+                    Text(subtitle)
+                        .foregroundColor(.black)
+                        .font(.system(size: 18))                        .padding(.bottom, 30)
+                }
             }
-            
         }
     }
 }
 #Preview {
-    HeaderView(title: "to:do", background: .white)
+    HeaderView(title: "to:do", subtitle: "", background: .white)
 }
