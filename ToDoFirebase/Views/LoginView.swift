@@ -35,6 +35,7 @@ struct LoginView: View {
                             }
                         }
                 }
+                .offset(y: -70)
                 HStack{
                     Button(action: {
                         // login attemp

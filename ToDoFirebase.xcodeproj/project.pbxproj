@@ -22,6 +22,7 @@
 		04643F792DBBAB720075CD60 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04643F782DBBAB720075CD60 /* RegisterViewViewModel.swift */; };
 		04643F7B2DBBABBA0075CD60 /* CreateItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04643F7A2DBBABBA0075CD60 /* CreateItemViewViewModel.swift */; };
 		04643F7D2DBBABE10075CD60 /* ToDoListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04643F7C2DBBABE10075CD60 /* ToDoListViewViewModel.swift */; };
+		04AB17652DCBFFB70078DEDA /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB17642DCBFFB70078DEDA /* TLButton.swift */; };
 		04AB2A3E2DBEDEDA002D8B73 /* KyivTypeSerif-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04AB2A3D2DBEDEDA002D8B73 /* KyivTypeSerif-Medium.ttf */; };
 		04AB2A402DBEDF43002D8B73 /* KyivTypeSerif-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04AB2A3F2DBEDF43002D8B73 /* KyivTypeSerif-Light.ttf */; };
 		04B6C9502DC7A7C9000D6DAD /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B6C94F2DC7A7C9000D6DAD /* HeaderView.swift */; };
@@ -56,6 +57,7 @@
 		04643F7A2DBBABBA0075CD60 /* CreateItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateItemViewViewModel.swift; sourceTree = "<group>"; };
 		04643F7C2DBBABE10075CD60 /* ToDoListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewViewModel.swift; sourceTree = "<group>"; };
 		04643F802DBBCABA0075CD60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		04AB17642DCBFFB70078DEDA /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		04AB2A3D2DBEDEDA002D8B73 /* KyivTypeSerif-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KyivTypeSerif-Medium.ttf"; sourceTree = "<group>"; };
 		04AB2A3F2DBEDF43002D8B73 /* KyivTypeSerif-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KyivTypeSerif-Light.ttf"; sourceTree = "<group>"; };
 		04B6C94F2DC7A7C9000D6DAD /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				04643F682DBBA4B10075CD60 /* RegisterView.swift */,
 				04643F6A2DBBA4EB0075CD60 /* itemView.swift */,
 				04B6C94F2DC7A7C9000D6DAD /* HeaderView.swift */,
+				04AB17642DCBFFB70078DEDA /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				04643F772DBBAB580075CD60 /* itemViewViewModel.swift in Sources */,
 				04643F712DBBAAE40075CD60 /* MainViewViewModel.swift in Sources */,
 				04BC4C2D2DA418A0009F1C8F /* MainView.swift in Sources */,
+				04AB17652DCBFFB70078DEDA /* TLButton.swift in Sources */,
 				04643F792DBBAB720075CD60 /* RegisterViewViewModel.swift in Sources */,
 				04643F652DBBA47F0075CD60 /* CreateItemView.swift in Sources */,
 				04643F732DBBAB080075CD60 /* ProfileViewViewModel.swift in Sources */,

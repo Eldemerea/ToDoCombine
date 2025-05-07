@@ -14,8 +14,8 @@ struct HeaderView: View {
     
     var body: some View {
         VStack {
-            Spacer()
-                .frame(height: 180)
+//            Spacer()
+//                .frame(height: 180)
             ZStack {
                 RoundedRectangle(cornerRadius: 0)
                     .foregroundColor(background)
@@ -23,14 +23,14 @@ struct HeaderView: View {
                     
                     Text(title)
                         .foregroundColor(.black)
-                        .font(Font.custom("KyivTypeSerif-Light", size: 36))
-                        .padding(.bottom, 30)
+                        .font(Font.custom("KyivTypeSerif-Light", size: 42))
                     Text(subtitle)
                         .foregroundColor(.black)
-                        .font(.system(size: 18))                        .padding(.bottom, 30)
+                        .font(Font.custom("MazzardM-Light", size: 24))
                 }
             }
         }
+        .offset(y: -50)
     }
 }
 #Preview {
