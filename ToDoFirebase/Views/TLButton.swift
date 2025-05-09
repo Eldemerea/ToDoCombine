@@ -13,9 +13,9 @@ struct TLButton: View {
     let action: () -> Void
     
     var body: some View {
-        Button(action: {
-            // login attemp
-        }, label: {
+        Button {
+            action()
+        } label: {
             ZStack {
                 RoundedRectangle(cornerRadius: 25)
                     .foregroundColor(background)
@@ -27,11 +27,13 @@ struct TLButton: View {
                     .foregroundColor(.white)
             }
         }
-               
-        )
+        .padding()
     }
 }
 
+
 #Preview {
-    TLButton(title: "Login", background: .black)
+    TLButton(title: "Login", background: .black) {
+        
+    }
 }
