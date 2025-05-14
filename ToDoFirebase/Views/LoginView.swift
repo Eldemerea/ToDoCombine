@@ -22,9 +22,10 @@ struct LoginView: View {
                 Form {
                     TextField("EMail address", text: $email)
                         .textFieldStyle(DefaultTextFieldStyle())
+                        .autocapitalization(.none)
                     HStack {
                         if showPassword {
-                            TextField(" Password", text: $password)
+                            TextField("  Password", text: $password)
                                 .textFieldStyle(DefaultTextFieldStyle())
                         } else {
                             SecureField("Password", text: $password)
@@ -39,11 +40,11 @@ struct LoginView: View {
                 }
                 .offset(y: -70)
                 
-                HStack{
                     TLButton(title: "Log In", background: .black) {
                         //log in attempt
                     }
-                }
+                    .padding()
+
                 VStack {
                     Text("New around here?")
                     NavigationLink("Create an account", destination: RegisterView())

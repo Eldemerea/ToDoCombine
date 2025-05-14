@@ -33,6 +33,8 @@ struct RegisterView: View {
             ) {
                 //log in attempt
             }
+            .padding()
+
         }
     }
 }

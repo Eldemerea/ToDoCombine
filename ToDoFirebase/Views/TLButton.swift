@@ -27,7 +27,6 @@ struct TLButton: View {
                     .foregroundColor(.white)
             }
         }
-        .padding()
     }
 }
 
