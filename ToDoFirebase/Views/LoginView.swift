@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct LoginView: View {
-    @State var email = ""
-    @State var password = ""
-    @State private var showPassword = false
+@StateObject var viewModel = LoginViewViewModel()
     
     
     var body: some View {
@@ -20,19 +18,19 @@ struct LoginView: View {
                 HeaderView(title: "to:do", subtitle: "", background: .white)
                 
                 Form {
-                    TextField("EMail address", text: $email)
+                    TextField("EMail address", text: $viewModel.email)
                         .textFieldStyle(DefaultTextFieldStyle())
                         .autocapitalization(.none)
                     HStack {
-                        if showPassword {
-                            TextField("  Password", text: $password)
+                        if viewModel.showPassword {
+                            TextField("  Password", text: $viewModel.password)
                                 .textFieldStyle(DefaultTextFieldStyle())
                         } else {
-                            SecureField("Password", text: $password)
+                            SecureField("Password", text: $viewModel.password)
                                 .textFieldStyle(DefaultTextFieldStyle())
                             
                         }
-                        Button(action: { self.showPassword.toggle()}) {
+                        Button(action: { viewModel.showPassword.toggle()}) {
                             Image(systemName: "eye")
                                 .foregroundColor(.secondary)
                         }
